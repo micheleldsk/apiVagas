@@ -5,6 +5,12 @@
    Criar uma API REST para que recrutadores de empresas de TI consigam criar vagas de emprego.<br>
    Além disso, os usuários poderão pesquisar e se candidatar para as vagas ofertadas na plataforma. A API deve seguir o padrão de arquitetura visto em aula.<br>
    Michele Ladanivski (@micheleldsk)</p>
+<br>
+<p>Adicionado posteriormente:<br>
+• A instalação e a configuração do Redis (pacote ioredis) no projeto.<br>
+• A criação de um repositório centralizado para armazenamento de cache.<br>
+• O salvamento em cache da lista de candidatos e de recrutadores.<br>
+• A listagem de dados de candidatos e recrutadores do cache, quando esses dados estiverem salvos no Redis.</p>
 
 <h3>Stacks desenvolvidas:</h3>
 <div style="display: inline_block" align="">
