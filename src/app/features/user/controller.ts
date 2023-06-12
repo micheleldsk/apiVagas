@@ -1,5 +1,4 @@
 import { Request, Response } from "express";
-import { ForbiddenError } from "../../shared/exceptions/forbiddenError";
 import { NotFoundError } from "../../shared/exceptions/notFoundError";
 import { ValidationError } from "../../shared/exceptions/validationError";
 import { UserRepository } from "./repository";
