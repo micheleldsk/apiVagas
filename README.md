@@ -10,7 +10,12 @@
 • A instalação e a configuração do Redis (pacote ioredis) no projeto.<br>
 • A criação de um repositório centralizado para armazenamento de cache.<br>
 • O salvamento em cache da lista de candidatos e de recrutadores.<br>
-• A listagem de dados de candidatos e recrutadores do cache, quando esses dados estiverem salvos no Redis.</p>
+• A listagem de dados de candidatos e recrutadores do cache, quando esses dados estiverem salvos no Redis.<br>
+• O salvamento do cache para os seguintes casos:<br>
+- Listagem de candidaturas<br>
+- Listagem de vagas<br>
+- Obtenção de uma vaga por ID (cada vaga deve estar em cache de maneira individual).<br>
+• A sincronização da base de dados primária com o cache, em caso de qualquer atualização (create/update/delete).</p>
 
 <h3>Stacks desenvolvidas:</h3>
 <div style="display: inline_block" align="">
